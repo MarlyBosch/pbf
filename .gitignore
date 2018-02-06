@@ -1,0 +1,13 @@
+**/js_test_files/**/*
+**/node_modules/**/*
+/sites/default/settings.local.php
+/sites/default/services.local.yml
+/sites/default/files
+
+# Ignore common Drupal development projects.
+/modules/contrib/devel
+/modules/contrib/vardumper
+
+# Ignore any .git directory.
+/vendor/**/.git
+/**/.git
