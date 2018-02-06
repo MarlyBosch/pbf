@@ -779,10 +779,11 @@ $settings['entity_update_batch_size'] = 50;
  *
  * Keep this code block at the end of this file to take full effect.
  */
-#
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+
+ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+   include $app_root . '/' . $site_path . '/settings.local.php';
+ }
+
 $databases['default']['default'] = array (
   'database' => 'pbf',
   'username' => 'root',
@@ -795,3 +796,7 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/config/sync';
+
+//$settings['trusted_host_patterns'] = [
+//  '^www\.puurbijfemke\.nl$',
+//];
