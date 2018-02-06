@@ -295,7 +295,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'EwYWmPgWlHuN9mca2shqvrstquiu2_kANO93QRzNhdTpryxnhLPK54HfUfsdMd2fGsV3Jk0thQ';
+$settings['hash_salt'] = 'ZoRIshsNRV6-eMNvatqIHV5fSzLmemIbAhPc6z5xhy_DC9SQlwKzZlXJiNYXGzilodyOuEx_ew';
 
 /**
  * Deployment identifier.
@@ -794,4 +794,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_-a_wSl_9DeDMMEZq_PHUPP26H55wbxdQLPYA5SCvGo3QFyRkXwYKBcKJ9uVaae55--2qJYSNVg/sync';
+$config_directories['sync'] = 'sites/default/config/sync';
